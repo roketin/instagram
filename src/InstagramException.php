@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Vinkla\Instagram;
+namespace Roketin\Instagram;
 
 use RuntimeException;
 

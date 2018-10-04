@@ -11,13 +11,13 @@
 
 declare(strict_types=1);
 
-namespace Vinkla\Tests\Instagram;
+namespace Roketin\Tests\Instagram;
 
 use GuzzleHttp\Psr7\Response;
 use Http\Mock\Client;
 use PHPUnit\Framework\TestCase;
-use Vinkla\Instagram\Instagram;
-use Vinkla\Instagram\InstagramException;
+use Roketin\Instagram\Instagram;
+use Roketin\Instagram\InstagramException;
 
 /**
  * This is the instagram test class.

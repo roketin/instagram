@@ -1,13 +1,13 @@
 {
-    "name": "vinkla/instagram",
+    "name": "roketin/instagram",
     "description": "An easy-to-use and simple Instagram package",
     "license": "MIT",
     "keywords": ["instagram", "media", "feed", "recent"],
     "authors": [
         {
-            "name": "Vincent Klaiber",
-            "email": "hello@vinkla.com",
-            "homepage": "https://vinkla.com"
+            "name": "RoketinApp",
+            "email": "roketinapp@gmail.com",
+            "homepage": "https://roketin.com"
         }
     ],
     "require": {

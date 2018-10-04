@@ -5,7 +5,7 @@
 > An easy-to-use and simple [Instagram](https://www.instagram.com/) package.
 
 ```php
-use Vinkla\Instagram\Instagram;
+use Roketin\Instagram\Instagram;
 
 // Create a new instagram instance.
 $instagram = new Instagram('access_token');
@@ -14,11 +14,11 @@ $instagram = new Instagram('access_token');
 $instagram->get();
 ```
 
-[![Build Status](https://img.shields.io/travis/vinkla/instagram/master.svg?style=flat)](https://travis-ci.org/vinkla/instagram)
+[![Build Status](https://img.shields.io/travis/roketin/instagram/master.svg?style=flat)](https://travis-ci.org/roketin/instagram)
 [![StyleCI](https://styleci.io/repos/27216826/shield?style=flat)](https://styleci.io/repos/27216826)
-[![Coverage Status](https://img.shields.io/codecov/c/github/vinkla/instagram.svg?style=flat)](https://codecov.io/github/vinkla/instagram)
-[![Latest Version](https://img.shields.io/github/release/vinkla/instagram.svg?style=flat)](https://github.com/vinkla/instagram/releases)
-[![License](https://img.shields.io/packagist/l/vinkla/instagram.svg?style=flat)](https://packagist.org/packages/vinkla/instagram)
+[![Coverage Status](https://img.shields.io/codecov/c/github/roketin/instagram.svg?style=flat)](https://codecov.io/github/roketin/instagram)
+[![Latest Version](https://img.shields.io/github/release/roketin/instagram.svg?style=flat)](https://github.com/roketin/instagram/releases)
+[![License](https://img.shields.io/packagist/l/roketin/instagram.svg?style=flat)](https://packagist.org/packages/roketin/instagram)
 
 ## Installation
 
@@ -27,15 +27,15 @@ Instagram is decoupled from any library sending HTTP requests (like Guzzle), ins
 Read more about the benefits of this and about what different HTTP clients you may use in the [HTTPlug documentation](http://docs.php-http.org/en/latest/httplug/users.html). Below is an example using [Guzzle 6](http://docs.guzzlephp.org/en/latest/index.html):
 
 ```bash
-$ composer require vinkla/instagram php-http/message php-http/guzzle6-adapter
+$ composer require roketin/instagram php-http/message php-http/guzzle6-adapter
 ```
 
 ## Usage
 
-First you need to create a new `Vinkla\Instagram\Instagram` instance and add your access token. If you don't want to create a Instagram API application you can use [Pixel Union's access token generator](http://instagram.pixelunion.net) for Instagram.
+First you need to create a new `roketin\Instagram\Instagram` instance and add your access token. If you don't want to create a Instagram API application you can use [Pixel Union's access token generator](http://instagram.pixelunion.net) for Instagram.
 
 ```php
-use Vinkla\Instagram\Instagram;
+use Roketin\Instagram\Instagram;
 
 $instagram = new Instagram('access_token');
 ```

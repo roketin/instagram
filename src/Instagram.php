@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Vinkla\Instagram;
+namespace Roketin\Instagram;
 
 use Http\Client\HttpClient;
 use Http\Discovery\HttpClientDiscovery;
@@ -65,7 +65,7 @@ class Instagram
     /**
      * Fetch the media items.
      *
-     * @throws \Vinkla\Instagram\InstagramException
+     * @throws \Roketin\Instagram\InstagramException
      *
      * @return array
      */
@@ -83,6 +83,7 @@ class Instagram
             throw new InstagramException($body->meta->error_message);
         }
 
-        return json_decode((string) $response->getBody())->data;
+        $status = array(json_decode((string) $response->getBody()));
+        return ($status);
     }
 }
